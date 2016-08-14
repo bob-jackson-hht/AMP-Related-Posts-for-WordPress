@@ -1,0 +1,16 @@
+{{#show_content}}
+  <div class="relatedPostsContainer"> 
+    <div class="relatedPostsSubhead">{{subhead_title}}</div>
+    {{#content}}
+      <div class="relatedPostListItem">
+        <div class="relatedPostThumbnail">
+          <amp-img src="{{post_thumbnail_url}}" width="85" height="85" layout="fixed"></amp-img>
+        </div>
+        <div class="relatedPostTitleContainer">
+          <span class="relatedPostTitle">{{post_title}}</span>
+        </div>
+        <a class="relatedPostLink" href="{{post_url}}">{{post_title}}</a>
+      </div>
+    {{/content}}
+  </div>
+{{/show_content}}
